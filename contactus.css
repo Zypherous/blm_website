@@ -21,6 +21,9 @@ body {
     position: relative;
 }
 
+#donateBanner {
+    text-align: center;
+}
 .donationBox {
     position: center;
     display: flex;
@@ -41,23 +44,44 @@ body {
     padding: 10px;
     align-self: center;
 }
-/* #donateBanner{
-    height: 30%;
-} */
+
+.gray{
+    color: rgb(170, 104, 104);
+}
+
+::placeholder{
+    color: #fce21b;
+}
 form {
     align-self: center;
 }
 input[radio]{
     display: inline;
 }
+label {
+    padding: 5px;
+    width: fit-content;
+    background-color: transparent;
+    color: black;
+}
+
+input{
+    color:#fce21b;
+    background-color: gray;
+    border: 2px solid black;
+}
 textarea{
     resize: none;
     height: 65%;
     width: 100%;
+    color: #fce21b;
+    background-color: gray;
+    border: 2px solid black;
 }
 label {
     padding-right: 5px;
 }
+
 
 @media screen and(max-width: 600px){
     .donationBox {
