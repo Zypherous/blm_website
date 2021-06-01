@@ -15,9 +15,9 @@
     </section>
     <section class="container">
         <div class="donationBox">
-           <div class="content"> Donate today</div>
-           <div>
-               <form class="content">
+           <div class="content" id="donateBanner"> Donate today</div>
+           
+               <form class="content" >
                    <br>
                     <label for="fullname">Name</label>
                     <input type="text" name="Fullname" id ="fullname" placeholder="Name"></input>
@@ -26,10 +26,15 @@
                     <label for="phone">Phone Number</label>
                     <input type="text" name="PhoneNumber" id ="phone" placeholder="Enter Phone Number (optional)"></input>
                     <label for="msg">Message</label>
-                    <textarea name="Message" placeholder="Enter donation message"></textarea>
-                    
+                    <div>
+                        <textarea name="Message" placeholder="Enter donation message"></textarea>
+                        <div>Donation Amount</div>
+                        <label>$5</label><input type="radio" name="amount" value="$5"></input>
+                        <label>$20</label><input type="radio" name="amount" value="$20"></input>
+                        <label>$100</label><input type="radio" name="amount" value="$100"></input>
+                        <label>Other Amount:</label><input type="text" name="amount" value="" placeholder="Other" />
+                    </div>
                 </form>
-           </div>
         </div>
         
     </section>
