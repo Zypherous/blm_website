@@ -33,7 +33,15 @@ body {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     justify-self: center;
+}
+
+textarea{
+    resize: none;
+    height: 45%;
+    width: 100%;
 }
 
 @media screen and(max-width: 600px){
