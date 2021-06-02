@@ -104,6 +104,10 @@ label {
     padding-right: 5px;
 }
 
+a:hover{
+    background-color: transparent;
+    color: black;
+}
 
 @media screen and(max-width: 600px){
     .donationBox {
