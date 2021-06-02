@@ -116,6 +116,11 @@ a:hover{
     width: 20px;
 }
 
+#donate:hover {
+    background-color: green;
+}
+
+
 @media screen and(max-width: 600px){
     .donationBox {
         display: flex;
