@@ -30,6 +30,7 @@ body {
 }
 nav {
   background-color: black;
+  margin: 0;
 }
 
 .nav-container {
@@ -39,17 +40,20 @@ nav {
   color: white;
 }
 h1 {
-  margin-top: -0.2rem;
-  width: 50rem;
-  margin-left: 7rem;
+  margin-top: -0.7rem;
+  width: 30rem;
+  margin-left: 15rem;
 }
 h2 {
   width: 30rem;
   margin-top: -3rem;
-  margin-left: 13rem;
+  margin-left: 22rem;
 }
-h3 {
-  font-weight: normal;
+h4 {
+  margin-left: 14rem;
+}
+h5 {
+  margin-left: 3rem;
 }
 a {
   text-decoration: none;
@@ -71,9 +75,12 @@ a {
   margin-top: -1.9rem;
   font-weight: normal;
 }
+.text-2 {
+  margin-top: -1.9rem;
+}
 li {
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-left: 2rem;
 }
 
@@ -81,11 +88,22 @@ img {
   width: 200px;
   height: 10rem;
 }
+p {
+  width: 30ch;
+  margin-top: -1rem;
+  margin-left: 3rem;
+}
 .container-B {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-end;
-  margin-top: -20rem;
+  margin-top: -35rem;
   margin-right: 3rem;
+}
+.text-3 {
+  width: 50ch;
+  margin-left: -10rem;
+}
+.p-1 {
+  margin-left: 15rem;
 }
