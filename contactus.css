@@ -105,11 +105,16 @@ a:hover{
     background-color: transparent;
     color: black;
 }
-
-#credit {
+#ceditlabel {
+    display: inline;
+}
+#credit{
     width: 50%;
 }
 
+#cvv {
+    width: 20px;
+}
 
 @media screen and(max-width: 600px){
     .donationBox {
