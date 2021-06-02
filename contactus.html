@@ -18,7 +18,7 @@
         <div class="donationBox">
            <div class="content" id="donateBanner"> <span><h1>Donate today</h1></h1Donate></span></div>
            
-               <form class="content" >
+               <form class="content" action="/action_page.php">
                    <br>
                     <label for="fullname">Name</label>
                     <input type="text" name="Fullname" id ="fullname" placeholder="Name"></input>
@@ -34,9 +34,8 @@
                         <label>$20</label><input type="radio" name="amount" value="$20"></input>
                         <label>$100</label><input type="radio" name="amount" value="$100"></input>
                         <label>Other Amount:</label><input type="text" name="amount" value="" placeholder="Other" />
-                        
                     </div>
-                </form>
+                <!-- </form> -->
                     <div class="content">
                         <div>
                             <br>
@@ -48,6 +47,7 @@
                         <input type="submit" name="donateBtn" placeholder="DONATE" id="donate">
                     </div>
                     </div>
+                </form>
         </div>
         <footer>
                 <li><a href="#facebook"> Facebook <i class="fab fa-facebook-square"></i></a></li>
