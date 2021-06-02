@@ -38,6 +38,19 @@ nav {
 
   color: white;
 }
+h1 {
+  margin-top: -0.2rem;
+  width: 50rem;
+  margin-left: 7rem;
+}
+h2 {
+  width: 30rem;
+  margin-top: -3rem;
+  margin-left: 13rem;
+}
+h3 {
+  font-weight: normal;
+}
 a {
   text-decoration: none;
   color: white;
@@ -52,11 +65,21 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-left: -1.3rem;
 }
-.img {
-  width: 50px;
-  height: 5rem;
-  margin-top: 10rem;
+.text-1 {
+  margin-top: -1.9rem;
+  font-weight: normal;
+}
+li {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+img {
+  width: 200px;
+  height: 10rem;
 }
 .container-B {
   display: flex;
