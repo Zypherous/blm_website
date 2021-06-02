@@ -107,3 +107,9 @@ p {
 .p-1 {
   margin-left: 15rem;
 }
+.facebook,
+.twitter,
+.instagram {
+  width: 50px;
+  height: 3rem;
+}
