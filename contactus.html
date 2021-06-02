@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="/contactus.css">
+    <title>Donate/Contact</title>
+    <script src="https://kit.fontawesome.com/d339ea21db.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1 style ="color: yellow;">Black Lives Matter</h1>
-</body>
-</html>
+<body >
+    <section>
+        <nav>
+            NAVIGATION
+        </nav>
+    </section>
+    <section class="container">
+        <div class="donationBox">
+           <div class="content" id="donateBanner"> <span><h1>Donate today</h1></h1Donate></span></div>
+           
+               <form class="content" >
+                   <br>
+                    <label for="fullname">Name</label>
+                    <input type="text" name="Fullname" id ="fullname" placeholder="Name"></input>
+                    <label for="email">Email</label>
+                    <input type="text" name="Email" id ="email" placeholder="Enter Email"></input>
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="PhoneNumber" id ="phone" placeholder="Enter Phone Number (optional)"></input>
+                    <label for="msg">Message</label>
+                    <div>
+                        <textarea name="Message" placeholder="Enter donation message"></textarea>
+                        <div>Donation Amount</div>
+                        <label>$5</label><input type="radio" name="amount" value="$5"></input>
+                        <label>$20</label><input type="radio" name="amount" value="$20"></input>
+                        <label>$100</label><input type="radio" name="amount" value="$100"></input>
+                        <label>Other Amount:</label><input type="text" name="amount" value="" placeholder="Other" />
+                        
+                    </div>
+                </form>
+                    <div class="content">
+                        <div>
+                            <br>
+                            <label>Expiration</label><label class="gray">(mm/yy)</label><input type="text" name="expiry" placeholder="mm/dd"></input>
+                            <label>cvv</label><input type="text" name="security" placeholder="xxx" id="cvv"></input>
+                        </div>
+                    <div>
+                        <label id="creditlabel">Credit Card Number</label><input type="text" name="ccn" placeholder="Credit Card Number" maxlength="16" size="16" id="credit"></input>
+                        <input type="submit" name="donateBtn" placeholder="DONATE" id="donate">
+                    </div>
+                    </div>
+        </div>
+        <footer>
+                <li><a href="#facebook"> Facebook <i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#twitter">Twitter    <i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#instagram">Instagram <i class="fab fa-instagram-square"></i></a></li>
+        </footer>
+    </section>
+

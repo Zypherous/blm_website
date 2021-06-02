@@ -6,4 +6,3 @@ This website is dedicated to the BLM movement. We are looking to educate others 
 
 Font - Montserrat
 Colors - Black, white, gray, #fce21b
-
