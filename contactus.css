@@ -1,7 +1,11 @@
 html {
     height: 100%;
 }
-
+h1 {
+    font-size: 15px;
+    color: #fce21b ;
+    text-align: center;
+}
 li, li >a {
     color: #fce21b;
     list-style: none;
@@ -35,6 +39,12 @@ body {
 
 #donateBanner {
     text-align: center;
+
+}
+span {
+    width: 45%;
+    background-color: black;
+    align-self: center;
 }
 .donationBox {
     position: center;
