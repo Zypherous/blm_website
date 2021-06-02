@@ -14,10 +14,6 @@ li, li >a {
     padding: 6px;
 }
 
-#hand {
-    height: 100px;
-    width: 150px;
-}
 body {
     height: 100%;
     background-image: url("/images/donationimg.png");
@@ -41,6 +37,7 @@ body {
     text-align: center;
 
 }
+
 span {
     width: 45%;
     background-color: black;
@@ -108,6 +105,11 @@ a:hover{
     background-color: transparent;
     color: black;
 }
+
+#credit {
+    width: 50%;
+}
+
 
 @media screen and(max-width: 600px){
     .donationBox {
