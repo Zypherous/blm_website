@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("fonts/monstserrat/montserrat-bold-webfont.woff2") format("woff2"),
+    url("fonts/monstserrat/montserrat-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("fonts/monstserrat/montserrat-bolditalic-webfont.woff2")
+      format("woff2"),
+    url("fonts/monstserrat/montserrat-bolditalic-webfont.woff2") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("fonts/monstserrat/montserrat-regular-webfont.woff2") format("woff2"),
+    url("fonts/monstserrat/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+}
+h1 {
+  margin-top: -0.7rem;
+  width: 30rem;
+  margin-left: 15rem;
+}
+h2 {
+  width: 30rem;
+  margin-top: -3rem;
+  margin-left: 22rem;
+}
+h4 {
+  margin-left: 14rem;
+}
+h5 {
+  margin-left: 3rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  width: 70px;
+  height: 3rem;
+}
+
+.container-A {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: -1.3rem;
+}
+.text-1 {
+  margin-top: -1.9rem;
+  font-weight: normal;
+}
+.text-2 {
+  margin-top: -1.9rem;
+}
+li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+img {
+  width: 200px;
+  height: 10rem;
+}
+p {
+  width: 30ch;
+  margin-top: -1rem;
+  margin-left: 3rem;
+}
+.container-B {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -35rem;
+  margin-right: 3rem;
+}
+.text-3 {
+  width: 50ch;
+  margin-left: -10rem;
+}
+.p-1 {
+  margin-left: 15rem;
+}
+.facebook,
+.twitter,
+.instagram {
+  width: 50px;
+  height: 3rem;
+}
